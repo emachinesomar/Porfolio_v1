@@ -162,7 +162,7 @@ const WelcomeScreen = ({ onLoadingComplete }) => {
                     <Globe className="w-4 h-4 sm:w-5 sm:h-5 text-indigo-600" />
                     <span className="bg-gradient-to-r from-indigo-600 to-purple-600 bg-clip-text text-transparent">
                     {/* letras url principal  */}
-                    <TypewriterEffect text="www.omar.coms"/>
+                    <TypewriterEffect text="Ya  Online"/>
                     </span>
                   </div>
                 </a>

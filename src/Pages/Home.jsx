@@ -76,7 +76,7 @@ const SocialLink = memo(({ icon: Icon, link }) => (
 // Constants
 const TYPING_SPEED = 100;
 const ERASING_SPEED = 50;
-const PAUSE_DURATION = 2000;
+const PAUSE_DURATION = 4000;
 const WORDS = ["Network & Telecom Student", "Tech Enthusiast"];
 const TECH_STACK = ["React", "Javascript", "Node.js", "Tailwind"];
 const SOCIAL_LINKS = [
