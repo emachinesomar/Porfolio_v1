@@ -143,7 +143,8 @@ const Home = () => {
 
   // Lottie configuration
   const lottieOptions = {
-    src: "https://assets10.lottiefiles.com/packages/lf20_5gq3h9.json",
+    // src: "https://assets10.lottiefiles.com/packages/lf20_5gq3h9.json",
+    src : "https://cdnl.iconscout.com/lottie/premium/thumb/man-doing-ai-analysis-13962339-11234100.mp4",
     loop: true,
     autoplay: true,
     renderersettings: {
@@ -223,8 +224,35 @@ const Home = () => {
                 <div className={`relative z-10 w-full opacity-90 transform transition-transform duration-500 ${
                   isHovering ? "scale-105" : "scale-100"
                 }`}>
-                  <DotLottieReact {...lottieOptions} />
+                  {/* <DotLottieReact {...lottieOptions} /> */}
+                  {/* <video autoPlay loop muted playsInline className="w-full h-full object-cover"
+                   src="https://cdnl.iconscout.com/lottie/premium/thumb/man-doing-ai-analysis-13962339-11234100.mp4"></video> */}
+                   {/* https://cdnl.iconscout.com/lottie/premium/thumb/back-end-developer-animation-download-in-lottie-json-gif-static-svg-file-formats--front-web-development-computing-pack-school-education-animations-3428942.mp4*/}
+                   {/* https://cdnl.iconscout.com/lottie/premium/thumb/mobile-app-development-animation-download-in-lottie-json-gif-static-svg-file-formats--application-marketing-design-animations-3432090.mp4 */}
+                   {/* https://cdnl.iconscout.com/lottie/premium/thumb/female-programmer-developed-website-animation-download-in-lottie-json-gif-static-svg-file-formats--html-logo-developer-web-development-pack-design-animations-5304702.mp4 */}
+                   {/* https://cdnl.iconscout.com/lottie/premium/thumb/app-development-animation-download-in-lottie-json-gif-static-svg-file-formats--web-design-mobile-application-data-computing-pack-business-animations-3479079.mp4 */}
+                   {/* https://cdnl.iconscout.com/lottie/premium/thumb/mobile-application-developer-animation-download-in-lottie-json-gif-static-svg-file-formats--html-logo-website-development-app-web-pack-design-animations-5304706.mp4 */}
+                   {/* https://cdnl.iconscout.com/lottie/premium/thumb/website-development-animation-download-in-lottie-json-gif-static-svg-file-formats--analytics-logo-web-wireframe-layout-home-page-pack-business-animations-3806560.mp4 */}
+                   {/* https://cdnl.iconscout.com/lottie/premium/thumb/backend-coding-animation-download-in-lottie-json-gif-static-svg-file-formats--web-development-programming-software-digital-marketing-pack-miscellaneous-animations-9315993.mp4 */}
+                   {/* https://cdnl.iconscout.com/lottie/premium/thumb/man-coding-on-laptop-animation-download-in-lottie-json-gif-static-svg-file-formats--html-logo-freelance-developer-programmer-doing-freelancing-job-employee-design-development-animations-3618984.mp4 */}
+                   {/* https://cdnl.iconscout.com/lottie/premium/thumb/web-development-team-working-together-animation-download-in-lottie-json-gif-static-svg-file-formats--developers-developer-business-activities-pack-miscellaneous-animations-7016596.mp4 */}
+                   {/* https://cdnl.iconscout.com/lottie/premium/thumb/two-male-developer-working-on-computer-animation-download-in-lottie-json-gif-static-svg-file-formats--application-development-web-program-people-pack-animations-3429384.mp4 */}
+                   {/* https://cdnl.iconscout.com/lottie/premium/thumb/full-stack-web-developer-animation-download-in-lottie-json-gif-static-svg-file-formats--code-dev-development-software-pack-seo-animations-9801019.mp4 */}
+                   {/* https://cdnl.iconscout.com/lottie/premium/thumb/male-developer-working-at-desk-animation-download-in-lottie-json-gif-static-svg-file-formats--code-line-lines-freelance-programmer-technology-pack-science-animations-6864484.mp4 */}
+                   {/* https://cdnl.iconscout.com/lottie/premium/thumb/web-developer-animation-download-in-lottie-json-gif-static-svg-file-formats--java-logo-development-application-software-pack-business-animations-3428952.mp4 */}
+                   {/* https://cdnl.iconscout.com/lottie/premium/thumb/freelance-developer-working-on-laptop-animation-download-in-lottie-json-gif-static-svg-file-formats--html-logo-programmer-doing-freelancing-job-design-development-animations-3618987.mp4 */}
+                   {/* https://cdnl.iconscout.com/lottie/premium/thumb/app-development-animation-download-in-lottie-json-gif-static-svg-file-formats--mobile-web-android-design-animations-4009665.mp4 */}
+                   {/* https://cdnl.iconscout.com/lottie/premium/thumb/male-web-developer-working-on-laptop-animation-download-in-lottie-json-gif-static-svg-file-formats--development-software-pack-website-animations-4198353.mp4 */}
+                   {/* https://cdnl.iconscout.com/lottie/premium/thumb/web-development-animation-download-in-lottie-json-gif-static-svg-file-formats--html-logo-website-female-developer-pack-design-animations-4936329.mp4 */}
+                   {/* https://cdnl.iconscout.com/lottie/premium/thumb/development-team-animation-download-in-lottie-json-gif-static-svg-file-formats--html-logo-java-coding-developer-web-code-teamwork-pack-business-animations-3056516.mp4 */}
+                   
+
+
+                   <video autoPlay loop muted playsInline className="w-full h-full object-cover"
+                      src="https://cdnl.iconscout.com/lottie/premium/thumb/man-coding-on-laptop-animation-download-in-lottie-json-gif-static-svg-file-formats--html-logo-freelance-developer-programmer-doing-freelancing-job-employee-design-development-animations-3618984.mp4" type="video/mp4">
+                    </video>
                 </div>
+
 
                 <div className={`absolute inset-0 pointer-events-none transition-all duration-700 ${
                   isHovering ? "opacity-50" : "opacity-20"
